@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="accest/style.css">
+  <title>Encriptador y Desencriptador de Texto</title>
+
+ 
+</head>
+<body>
+  <h1 class="header"><img  src="img/Logo.png" alt="logo">Encriptador de texto</h1>
+  
+  <div class="container">
+    <div class="column">
+      <textarea id="inputText" placeholder="Ingrese el texto aquí..." class="input-text"></textarea>
+    </div>
+    <div class="column">
+      <textarea id="resultText" placeholder="Resultado..." class="result-text" readonly></textarea>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <button onclick="encryptText()" class="btn">Encriptar</button>
+    <button onclick="decryptText()" class="btn">Desencriptar</button>
+    <button onclick="copyText()" class="btn">Copiar</button>
+  </div>
+
+  <div class="rodapie">
+    <p>Desarrollado por: Hendel Jhojan</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

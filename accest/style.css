@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    body {
+      font-family: "Inter", sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      background: #F3F5FC;
+    }
+    .container {
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .column {
+      width: 45%;
+      
+    }
+    textarea {
+      width: 100%;
+      height: 300px;
+      resize: none;
+      font-size: 32px;
+      color: darkblue;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      
+    }
+
+    .rodapie {
+        text-align: center;
+        background-color: darkblue;
+        color: white;
+    }
+        
+ 
+     
+    .btn {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      background-color: darkblue;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-family: "Inter", sans-serif;
+    }
+    .btn:hover {
+      background-color: black; 
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .column {
+        width: 100%;
+      }
+    }
